@@ -41,8 +41,6 @@ public class TextInputActivity extends AppCompatActivity implements View.OnClick
 
         mUsernameLayout.setHint("please input your name");
         mPasswordLayout.setHint("please input your password");
-
-
         mLogin.setOnClickListener(this);
     }
 
