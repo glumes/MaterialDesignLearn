@@ -1,5 +1,6 @@
 package com.glumes.materialdesignlearn.adapter;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -15,7 +16,6 @@ import java.util.ArrayList;
 public class TabPagerAdapter extends FragmentPagerAdapter {
 
     private ArrayList<Fragment> mFragments ;
-
     private String tabTitles[] = new String[]{"Tab1","Tab2","Tab3"} ;
     public TabPagerAdapter(FragmentManager fm) {
         super(fm);

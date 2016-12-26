@@ -9,8 +9,8 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
 import com.glumes.materialdesignlearn.adapter.RecyclerAdapter;
+import com.glumes.materialdesignlearn.util.CommonUtil;
 
-import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -42,19 +42,12 @@ public class CollapsingToolbarLayoutActivity extends AppCompatActivity {
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(layoutManager);
 
-        mRecyclerView.setAdapter(new RecyclerAdapter(this,getData("Data -")));
+        mRecyclerView.setAdapter(new RecyclerAdapter(this, CommonUtil.getData("Data -")));
 
     }
 
 
 
-    private ArrayList<String> getData(String prefix){
-        ArrayList<String> data = new ArrayList<>();
 
-        for (int i = 0 ; i < 10 ; i ++){
-            data.add(prefix + "  " + i);
-        }
-        return data ;
-    }
 
 }
