@@ -21,6 +21,14 @@
         </activity>
         <activity android:name=".TabLayoutActivity">
         </activity>
+        <activity android:name=".CoordinatorActivity">
+        </activity>
+        <activity android:name=".AppBarLayoutActivity">
+        </activity>
+        <activity android:name=".CollapsingToolbarLayoutActivity">
+        </activity>
+        <activity android:name=".NestedScrollViewActivity">
+        </activity>
     </application>
 
 </manifest>

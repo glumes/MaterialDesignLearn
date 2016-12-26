@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @OnClick({R.id.text_input, R.id.toolbar,R.id.tablayout})
+    @OnClick({R.id.text_input, R.id.toolbar,R.id.tablayout,R.id.coordinator,R.id.appbarlayout,R.id
+            .collapsingtoolbarlayout,R.id.nestedscrollview})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.text_input:
@@ -40,6 +41,18 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.tablayout:
                 startActivity(new Intent(MainActivity.this,TabLayoutActivity.class));
+                break;
+            case R.id.coordinator:
+                startActivity(new Intent(MainActivity.this,CoordinatorActivity.class));
+                break;
+            case R.id.appbarlayout:
+                startActivity(new Intent(MainActivity.this,AppBarLayoutActivity.class));
+                break;
+            case R.id.collapsingtoolbarlayout:
+                startActivity(new Intent(MainActivity.this,CollapsingToolbarLayoutActivity.class));
+                break;
+            case R.id.nestedscrollview:
+                startActivity(new Intent(MainActivity.this,NestedScrollViewActivity.class));
                 break;
             default:
                 break;
