@@ -28,7 +28,7 @@
             android:fitsSystemWindows="true"
             app:expandedTitleMarginStart="100dp"
             app:expandedTitleMarginEnd="64dp"
-            app:statusBarScrim="@android:color/holo_red_dark"
+            app:statusBarScrim="@color/colorPrimary"
             >
 
 

@@ -9,6 +9,7 @@
 
     tools:context="com.glumes.materialdesignlearn.ToolbarActivity">
 
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -17,5 +18,7 @@
         android:background="@color/colorPrimary"
         app:popupTheme="@style/ToolbarOverlay"
         />
+
+
 
 </android.support.design.widget.CoordinatorLayout>

@@ -21,11 +21,13 @@
         </activity>
         <activity android:name=".TabLayoutActivity">
         </activity>
-        <activity android:name=".CoordinatorActivity">
+        <activity android:name=".CoordinatorActivity"
+                  android:theme="@style/AppTheme.TintStatusBar">
         </activity>
         <activity android:name=".AppBarLayoutActivity">
         </activity>
-        <activity android:name=".CollapsingToolbarLayoutActivity">
+        <activity android:name=".CollapsingToolbarLayoutActivity"
+            android:theme="@style/AppTheme.TintStatusBar">
         </activity>
         <activity android:name=".NestedScrollViewActivity">
         </activity>
