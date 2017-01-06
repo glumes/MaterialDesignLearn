@@ -29,7 +29,8 @@
         <activity android:name=".CollapsingToolbarLayoutActivity"
             android:theme="@style/AppTheme.TintStatusBar">
         </activity>
-        <activity android:name=".NestedScrollViewActivity">
+        <activity android:name=".NestedScrollViewActivity"
+            android:theme="@style/AppTheme.TintStatusBar">
         </activity>
     </application>
 

@@ -1,11 +1,13 @@
 package com.glumes.materialdesignlearn;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.Window;
 import android.widget.Toast;
 
 import com.glumes.materialdesignlearn.adapter.RecyclerAdapter;
@@ -26,6 +28,7 @@ public class ToolbarActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toolbar);
+
         ButterKnife.bind(this);
         mToolbar.setTitle("Title");
         mToolbar.setSubtitle("SubTitle");
