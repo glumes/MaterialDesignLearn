@@ -39,7 +39,6 @@ public class CoordinatorActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
 
-        mToolbar.setTitle("Title");
         mToolbar.setSubtitle("SubTitle");
         mToolbar.setNavigationIcon(R.mipmap.ic_drawer_home);
 //        mToolbar.setLogo(R.mipmap.ic_launcher);
